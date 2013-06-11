@@ -34,7 +34,7 @@ Start the BlackBerry 10 Simulator and note the IP address it is assigned (check 
 Being $BB the folder where your BlackBerry 10 SDK for Adobe AIR was installed and $IP the IP address of the simulator run
 
 ```
-$BB/bin/blackberry-airpackager -package StockListDemo.bar -installApp -launchApp -device $IP -forceAirVersion 3.1 -ane $BB\frameworks\libs\blackberry\ane\BlackBerryPushService.ane -ane $BB\frameworks\libs\qnx\ane\QNXDevice.ane -ane $BB\frameworks\libs\qnx\ane\QNXNetwork.ane -ane $BB\frameworks\libs\qnx\ane\QNXSensors.ane -ane $BB\frameworks\libs\qnx\ane\QNXSkins.ane StockListDemo-app.xml bar-descriptor.xml StockListDemo.swf icon_image.png
+$BB/bin/blackberry-airpackager -package StockListDemo.bar -installApp -launchApp -device $IP -forceAirVersion 3.1 -ane $BB\frameworks\libs\qnx\ane\QNXSkins.ane StockListDemo-app.xml bar-descriptor.xml StockListDemo.swf icon_image.png
 ```
 
 A new StockListDemo.bar file will be created and deployed on the simulator. Note that the application will also be automatically launched.

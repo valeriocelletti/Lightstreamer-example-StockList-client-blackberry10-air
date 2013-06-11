@@ -15,10 +15,6 @@
   </initialWindow>
   <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles>
   <extensions>
-        <extensionID>qnx.net.QNXNetwork.ane</extensionID>
-        <extensionID>qnx.system.QNXDevice</extensionID>
-        <extensionID>qnx.sensors.QNXSensors</extensionID>
-        <extensionID>net.rim.blackberry.PushService</extensionID>
         <extensionID>qnx.fuse.ui.skins.QNXSkins</extensionID>
   </extensions>
  
