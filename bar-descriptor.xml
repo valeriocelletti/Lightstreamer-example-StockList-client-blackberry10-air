@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qnx>
+    <initialWindow>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+    </initialWindow>
+    <icon>
+        <image>icon_image.png</image>
+    </icon>
+    <permission>access_internet</permission>
+    <platformVersion>1.0.0.0</platformVersion>
+</qnx>
