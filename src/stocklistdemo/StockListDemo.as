@@ -19,6 +19,7 @@ package stocklistdemo
     import flash.display.StageAlign;
     import flash.display.StageScaleMode;
     import qnx.fuse.ui.text.Label;
+    import qnx.fuse.ui.display.Image;
     
     import com.lightstreamer.as_client.LSClient;
     import com.lightstreamer.as_client.NonVisualTable;
@@ -37,7 +38,7 @@ package stocklistdemo
         private var port:uint = 80;
         private var protocol:String = "http";
         
-      
+        
         
         
         private var statusLabel:Label = new Label();
@@ -58,26 +59,32 @@ package stocklistdemo
         
         private function initializeUI():void
         {
+            //show logo
+            var logo:Image = new Image();
+            logo.setImage("logo.png");
+            logo.setPosition(5, 0);
+            logo.width = 308;
+            logo.height = 80;
+            addChild(logo);      
             
+            //show connection status
             statusLabel.width = 400;
-            statusLabel.x = 0;
-            statusLabel.y = 10;
+            statusLabel.x = 5;
+            statusLabel.y = logo.x + logo.height+10;
             statusLabel.text = "Waiting";
             addChild(statusLabel); 
             
-            
-            
+            //show stock name
             nameLabel.width = 400;
-            nameLabel.x = 0;
-            nameLabel.y = statusLabel.height+10;
+            nameLabel.x = 5;
+            nameLabel.y = statusLabel.y + statusLabel.height+10;
             nameLabel.text = "Waiting";
             addChild(nameLabel);      
-             
-            
-            
+
+            //show current price
             priceLabel.width = 100;
             priceLabel.x = nameLabel.width+10;
-            priceLabel.y = statusLabel.height+10;
+            priceLabel.y = statusLabel.y + statusLabel.height+10;
             priceLabel.text = "0";
             addChild(priceLabel); 
             
