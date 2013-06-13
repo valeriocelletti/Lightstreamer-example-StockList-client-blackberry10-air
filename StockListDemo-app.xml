@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application xmlns="http://ns.adobe.com/air/application/3.1">
   <id>stocklistdemo</id>
-  <filename>StockListDemo</filename>
-  <name>StockListDemo</name>
+  <filename>StockList Demo Air</filename>
+  <name>StockList Demo Air</name>
   <versionNumber>1.0.0</versionNumber>
   <copyright>Weswit Srl</copyright> 
   <initialWindow>
