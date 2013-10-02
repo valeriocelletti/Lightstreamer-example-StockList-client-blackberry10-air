@@ -6,7 +6,7 @@ This demo shows how to use the Lightstreamer Flex Client library and the [BlackB
 
 Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)
 
-## Build and Run ##
+# Build #
 
 There are different ways to compile and run an AIR application for BlackBerry 10. This README will focus on the use of the command line tools. Feel free to check the [other possibilities](http://developer.blackberry.com/air/)
 
@@ -21,7 +21,7 @@ Keep track of the location of the BlackBerry 10 SDK for Adobe AIR as it will be 
 
 Download the [Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the Lightstreamer_as_client.swc file from the Lightstreamer Flex Client SDK (that is located under the DOCS-SDKs/sdk_client_flex/lib folder) into the lib folder of this project.
 
-### Build ###
+## Build ##
 
 Being $BB the folder where your BlackBerry 10 SDK for Adobe AIR was installed, run
 
@@ -31,7 +31,7 @@ $BB/bin/amxmlc -library-path+=lib/Lightstreamer_as_client.swc -source-path=src -
 
 a new StockListDemo.swf file will be created containing your air application 
 
-### Package and Run ###
+## Package and Run ##
 
 Start the BlackBerry 10 Simulator and take note of the IP address (check the bottom-left of the window the simulator is in)
 
@@ -43,12 +43,16 @@ $BB/bin/blackberry-airpackager -package StockListDemo.bar -installApp -launchApp
 
 A new StockListDemo.bar file will be created and deployed on the simulator. Note that the application will also be automatically launched.
 
-## See Also ##
+# See Also #
+
+*   [Lightstreamer Flex Client API Reference](http://www.lightstreamer.com/docs/client_flex_api/index.html)
+
+## Lightstreamer Adapters needed by this demo client ##
 
 *   [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 *   [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
-*   [Lightstreamer Flex Client API Reference](http://www.lightstreamer.com/docs/client_flex_api/index.html)
 
-## Lightstreamer Compatibility Notes ##
+# Lightstreamer Compatibility Notes #
 
 *   Compatible with Lightstreamer Flex Client library version 2.1 or newer.
+*   For Lightstreamer Allegro (+ Flex Client API support), Presto, Vivace. 
