@@ -1,4 +1,4 @@
-# Lightstreamer StockList Demo Client for BlackBerry AIR #
+# Lightstreamer - Basic Stock-List Demo - BlackBerry (AIR) Client #
 
 ![screenshot](screenshot.png)
 
@@ -49,8 +49,8 @@ A new StockListDemo.bar file will be created and deployed on the simulator. Note
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-*   [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-*   [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+*   [Lightstreamer - Stock-List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
+*   [Lightstreamer - Reusable Metadata Adapter- Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 # Lightstreamer Compatibility Notes #
 
