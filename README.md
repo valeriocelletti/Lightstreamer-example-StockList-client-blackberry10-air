@@ -49,8 +49,8 @@ A new StockListDemo.bar file will be created and deployed on the simulator. Note
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-*   [Lightstreamer - Stock-List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-*   [Lightstreamer - Reusable Metadata Adapter- Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+*   [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
+*   [Lightstreamer - Reusable Metadata Adapter- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 # Lightstreamer Compatibility Notes #
 
