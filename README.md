@@ -1,10 +1,12 @@
 # Lightstreamer - Basic Stock-List Demo - BlackBerry (AIR) Client #
+<!-- START DESCRIPTION Basic Stock-List Demo -->
 
 ![screenshot](screenshot.png)
 
 This demo shows how to use the Lightstreamer Flex Client library and the [BlackBerry 10 SDK for Adobe AIR](http://developer.blackberry.com/air/) to create a simple streaming-enabled application.
 
 Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)
+<!-- END DESCRIPTION Basic Stock-List Demo -->
 
 # Build #
 
@@ -48,10 +50,12 @@ A new StockListDemo.bar file will be created and deployed on the simulator. Note
 *   [Lightstreamer Flex Client API Reference](http://www.lightstreamer.com/docs/client_flex_api/index.html)
 
 ## Lightstreamer Adapters needed by this demo client ##
+<!-- START RELATED_ENTRIES -->
 
 *   [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 *   [Lightstreamer - Reusable Metadata Adapter- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
+<!-- END RELATED_ENTRIES -->
 # Lightstreamer Compatibility Notes #
 
 *   Compatible with Lightstreamer Flex Client library version 2.1 or newer.
