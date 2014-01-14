@@ -49,7 +49,7 @@ A new StockListDemo.bar file will be created and deployed on the simulator. Note
 
 *   [Lightstreamer Flex Client API Reference](http://www.lightstreamer.com/docs/client_flex_api/index.html)
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 <!-- START RELATED_ENTRIES -->
 
 *   [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
