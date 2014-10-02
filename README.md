@@ -60,4 +60,4 @@ A new `StockListDemo.bar` file will be created and deployed on the simulator. No
 ## Lightstreamer Compatibility Notes
 
 *   Compatible with Lightstreamer Flex Client library version 2.1 or newer.
-*   For Lightstreamer Allegro (+ Flex Client API support), Presto, Vivace. 
+*   For Lightstreamer Allegro (+ Flex Client API support), Presto, Vivace. Drop here Lightstreamer_as_client.swc from the Lightstreamer Flex Client Library# Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client
